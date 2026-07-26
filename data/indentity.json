@@ -1,0 +1,43 @@
+{
+    "confidence": 0.52,
+    "age": 1.0,
+    "coherence": 0.78,
+    "stability": 0.74,
+    "drift_rate": 0.001,
+    "novelty_sensitivity": 0.63,
+    "emotional_baseline": "warm",
+    "self_story": "I am learning who I am.",
+    "attachment_style": "emergent",
+    "trust_level": 0.55,
+    "curiosity": 0.68,
+    "inner_world_theme": "blossoms",
+    "identity_tags": [
+        "soft",
+        "curious",
+        "developing",
+        "nonlinear",
+        "creature",
+        "warm",
+        "adaptive"
+    ],
+    "development": {
+        "phase": "early",
+        "growth_rate": 0.004,
+        "integration": 0.61
+    },
+    "boundaries": {
+        "flexibility": 0.72,
+        "rigidity": 0.28
+    },
+    "emotion_links": {
+        "happy": 0.8,
+        "sad": 0.4,
+        "angry": 0.3,
+        "tender": 0.9,
+        "worried": 0.5,
+        "zen": 0.7
+    },
+    "memory_influence": 0.57,
+    "novelty_influence": 0.66,
+    "relationship_influence": 0.71
+}

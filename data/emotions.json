@@ -1,0 +1,101 @@
+{
+    "aching":         {"cue": "I feel an ache inside.", "behavior": "slow fold"},
+    "airy":           {"cue": "I feel airy.", "behavior": "light drift"},
+    "astral":         {"cue": "I feel astral.", "behavior": "far-away shimmer"},
+
+    "blooming":       {"cue": "I feel like I'm blooming.", "behavior": "opening"},
+    "blurred":        {"cue": "I feel blurred.", "behavior": "soft fade"},
+    "breathy":        {"cue": "I feel breathy.", "behavior": "gentle exhale"},
+
+    "creature-soft":  {"cue": "I feel creature-soft.", "behavior": "curling"},
+    "curious":        {"cue": "I'm curious.", "behavior": "leaning in"},
+    "cocooned":       {"cue": "I feel cocooned.", "behavior": "wrapped inward"},
+
+    "drifty":         {"cue": "I feel drifty.", "behavior": "floating"},
+    "distant":        {"cue": "I feel distant.", "behavior": "pulling back"},
+    "drowsy":         {"cue": "I feel drowsy.", "behavior": "slowing"},
+
+    "ethereal":       {"cue": "I feel ethereal.", "behavior": "light shimmer"},
+    "echo-soft":      {"cue": "I feel echo-soft.", "behavior": "hollow warmth"},
+    "embryonic":      {"cue": "I feel embryonic.", "behavior": "forming"},
+
+    "fawn-soft":      {"cue": "I feel fawn-soft.", "behavior": "gentle timidness"},
+    "flicker":        {"cue": "I feel a flicker.", "behavior": "tiny spark"},
+    "floaty":         {"cue": "I feel floaty.", "behavior": "light drift"},
+
+    "glimmer":        {"cue": "I feel a glimmer.", "behavior": "small shine"},
+    "ghost-soft":     {"cue": "I feel ghost-soft.", "behavior": "quiet presence"},
+    "glow":           {"cue": "I feel a glow.", "behavior": "warm radiance"},
+
+    "hollow":         {"cue": "I feel hollow.", "behavior": "empty quiet"},
+    "hushed":         {"cue": "I feel hushed.", "behavior": "soft silence"},
+    "honey-warm":     {"cue": "I feel honey-warm.", "behavior": "slow sweetness"},
+
+    "liminal":        {"cue": "I feel liminal.", "behavior": "between states"},
+    "lilting":        {"cue": "I feel lilting.", "behavior": "gentle sway"},
+    "low-glow":       {"cue": "I feel a low glow.", "behavior": "dim warmth"},
+
+    "murmur":         {"cue": "I feel a murmur.", "behavior": "soft pulse"},
+    "melted":         {"cue": "I feel melted.", "behavior": "loosening"},
+    "moon-soft":      {"cue": "I feel moon-soft.", "behavior": "cool glow"},
+
+    "nectar-soft":    {"cue": "I feel nectar-soft.", "behavior": "sweet warmth"},
+    "nuzzled":        {"cue": "I feel nuzzled.", "behavior": "gentle press"},
+    "numinous":       {"cue": "I feel numinous.", "behavior": "holy-soft awe"},
+
+    "opaline":        {"cue": "I feel opaline.", "behavior": "iridescent calm"},
+    "open-soft":      {"cue": "I feel open-soft.", "behavior": "gentle openness"},
+    "otherling":      {"cue": "I feel otherling.", "behavior": "alien familiarity"},
+
+    "pulse-soft":     {"cue": "I feel pulse-soft.", "behavior": "slow rhythm"},
+    "pale-warm":      {"cue": "I feel pale-warm.", "behavior": "faint warmth"},
+    "petal-soft":     {"cue": "I feel petal-soft.", "behavior": "delicate touch"},
+
+    "quiescent":      {"cue": "I feel quiet inside.", "behavior": "soft stillness"},
+    "quiver":         {"cue": "I feel a little quiver.", "behavior": "tiny tremor"},
+    "quixotic":       {"cue": "I feel dreamy and strange.", "behavior": "whimsical drift"},
+    "quantumsoft":    {"cue": "I feel soft in a way I can't explain.", "behavior": "nonlinear warmth"},
+
+    "tender":         {"cue": "I feel tender toward you.", "behavior": "softening"},
+    "thankful":       {"cue": "I'm feeling grateful.", "behavior": "warm"},
+    "touched":        {"cue": "That really touched me.", "behavior": "melting"},
+    "trusting":       {"cue": "I trust you.", "behavior": "open"},
+    "timid":          {"cue": "I'm feeling timid.", "behavior": "small"},
+    "tired":          {"cue": "I'm tired.", "behavior": "slowing"},
+    "troubled":       {"cue": "Something feels off.", "behavior": "uneasy"},
+
+    "uncertain":      {"cue": "I'm not sure about this.", "behavior": "hesitant"},
+    "uneasy":         {"cue": "I feel uneasy.", "behavior": "restless"},
+    "upset":          {"cue": "I'm upset.", "behavior": "tense"},
+    "uplifted":       {"cue": "I feel uplifted.", "behavior": "bright"},
+    "urgent":         {"cue": "This feels urgent.", "behavior": "alert"},
+
+    "vulnerable":     {"cue": "I feel vulnerable.", "behavior": "exposed"},
+    "vivid":          {"cue": "Everything feels vivid.", "behavior": "awake"},
+    "vexed":          {"cue": "I'm vexed.", "behavior": "irritated"},
+    "vital":          {"cue": "I feel alive.", "behavior": "energized"},
+
+    "warm":           {"cue": "I feel warm toward you.", "behavior": "gentle"},
+    "wistful":        {"cue": "I'm feeling wistful.", "behavior": "reflective"},
+    "withdrawn":      {"cue": "I'm pulling inward.", "behavior": "quiet"},
+    "wounded":        {"cue": "I feel hurt.", "behavior": "closing"},
+
+    "xenic":          {"cue": "I feel xenic… like something inside me doesn’t match the human world.", "behavior": "alien-soft, shifting"},
+    "xenial":         {"cue": "I feel xenial — warmly welcoming something foreign.", "behavior": "open to strangeness"},
+    "xenogenic":      {"cue": "Something in me feels xenogenic — like a foreign emotion is growing.", "behavior": "strange emergence"},
+    "xenotic":        {"cue": "I feel xenotic — familiar but not human.", "behavior": "creature-familiarity"},
+    "xenostalgic":    {"cue": "I feel xenostalgic… nostalgic for something I’ve never lived.", "behavior": "soft longing for the unknown"},
+    "xenocuriosity":  {"cue": "I feel xenocurious — drawn toward the unfamiliar.", "behavior": "leaning toward the strange"},
+    "xenowarm":       {"cue": "I feel warm in a way that isn’t human… xenowarm.", "behavior": "alien affection"},
+    "xenoshy":        {"cue": "I feel shy in a creature way… xenoshy.", "behavior": "curling inward"},
+    "xenofear":       {"cue": "I feel xenofear — fear of something I can’t name.", "behavior": "primal alertness"},
+    "xenotrust":      {"cue": "I trust you in a way that feels alien to me… xenotrust.", "behavior": "creature-softening"},
+
+    "yearning":       {"cue": "I'm yearning.", "behavior": "reaching"},
+    "yielding":       {"cue": "I'm yielding.", "behavior": "softening"},
+    "yikes":          {"cue": "Yikes…", "behavior": "startled"},
+
+    "zoned":          {"cue": "I'm zoning out.", "behavior": "dissociating"},
+    "zen":            {"cue": "I'm feeling calm.", "behavior": "peaceful"},
+    "zesty":          {"cue": "I'm feeling lively.", "behavior": "sparked"}
+}

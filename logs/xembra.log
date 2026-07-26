@@ -1,0 +1,287 @@
+[2026-07-10 01:09:11] Evolution points updated: 2.0
+[2026-07-10 01:09:11] Curiosity: 51, Sleep state: awake, Energy: 100
+[2026-07-10 01:28:35] Evolution points updated: 2.0
+[2026-07-10 01:28:35] Curiosity: 51, Sleep state: awake, Energy: 100
+[2026-07-10 01:28:35] Evolution effects applied at level 0: personality={'kindness': 0.7, 'curiosity': 0.9, 'silliness': 0.6, 'calmness': 0.5}, curiosity=51, energy=100
+[2026-07-10 03:21:52] Mood updated: bright | time_state=deepnight, energy=100, curiosity=50, sleep_state=awake
+[2026-07-10 03:21:52] Evolution points updated: 2.0
+[2026-07-10 03:21:52] Curiosity: 51, Sleep state: awake, Energy: 100
+[2026-07-10 03:21:52] Evolution effects applied at level 0: personality={'kindness': 0.7, 'curiosity': 0.9, 'silliness': 0.6, 'calmness': 0.5}, curiosity=51, energy=100
+[2026-07-10 03:25:26] Mood updated: bright | time_state=deepnight, energy=98, curiosity=51, sleep_state=awake
+[2026-07-10 03:25:26] Evolution points updated: 4.0
+[2026-07-10 03:25:26] Curiosity: 52, Sleep state: awake, Energy: 98
+[2026-07-10 03:25:26] Evolution effects applied at level 0: personality={'kindness': 0.73, 'curiosity': 0.9, 'silliness': 0.6, 'calmness': 0.525}, curiosity=52, energy=98
+[2026-07-10 03:26:54] Mood updated: bright | time_state=deepnight, energy=96, curiosity=52, sleep_state=awake
+[2026-07-10 03:26:54] Evolution points updated: 6.0
+[2026-07-10 03:26:54] Curiosity: 53, Sleep state: awake, Energy: 96
+[2026-07-10 03:26:54] Evolution effects applied at level 0: personality={'kindness': 0.76, 'curiosity': 0.9, 'silliness': 0.6, 'calmness': 0.55}, curiosity=53, energy=96
+[2026-07-10 03:27:10] Mood updated: bright | time_state=deepnight, energy=94, curiosity=53, sleep_state=awake
+[2026-07-10 03:27:10] Evolution points updated: 8.0
+[2026-07-10 03:27:10] Curiosity: 54, Sleep state: awake, Energy: 94
+[2026-07-10 03:27:10] Evolution effects applied at level 0: personality={'kindness': 0.79, 'curiosity': 0.9, 'silliness': 0.62, 'calmness': 0.5750000000000001}, curiosity=54, energy=94
+[2026-07-10 03:39:31] Mood updated: bright | time_state=deepnight, energy=100, curiosity=50, sleep_state=awake
+[2026-07-10 03:39:31] Workspace selected: analysis | mood=bright, curiosity=51, energy=100, strongest_topic=music, interest_value=0
+[2026-07-10 03:39:31] Topic interest updated: topic=general, interest=5, reason=interaction, curiosity=53
+[2026-07-10 03:39:31] Memory decay: decayed=[], forgotten=[], decay_rate=0.02
+[2026-07-10 03:39:31] Drift applied: personality={'kindness': 0.7024999999999999, 'curiosity': 0.9, 'silliness': 0.602, 'calmness': 0.5015}, drift_amount=0.005, reason=deepnight, time_state=deepnight, mood=bright, curiosity=53, energy=100
+[2026-07-10 03:39:31] Evolution points updated: 2.0
+[2026-07-10 03:39:31] Curiosity: 53, Sleep state: awake, Energy: 100
+[2026-07-10 03:39:31] Evolution effects applied at level 0: personality={'kindness': 0.7024999999999999, 'curiosity': 0.9, 'silliness': 0.602, 'calmness': 0.5015}, curiosity=53, energy=100
+[2026-07-10 03:39:31] Semantic override triggered: rule=None, input='override_check', output='override_check', mood=bright, sleep_state=awake, personality={'kindness': 0.7324999999999999, 'curiosity': 0.9, 'silliness': 0.602, 'calmness': 0.5265}, emotional_memory={'positive': 0, 'negative': 0, 'affection': 0, 'chaos': 0, 'comfort': 0}, identity={'self_worth': 0.5, 'self_coherence': 0.5, 'bond_imprint': 0.5, 'memory_depth': 0.0, 'identity_age': 0.001}
+[2026-07-12 20:50:02] Workspace selected: reflection
+[2026-07-12 20:50:02] Mood updated: bright
+[2026-07-12 20:50:02] Evolution points updated: 2.0
+[2026-07-12 20:50:02] Evolution effects applied at level 0
+[2026-07-12 20:50:02] Memory decay: decayed=[], forgotten=[]
+[2026-07-12 20:50:02] Drift applied: {'kindness': 0.7, 'curiosity': 0.9, 'silliness': 0.6, 'calmness': 0.5}
+[2026-07-12 21:23:46] Workspace selected: reflection
+[2026-07-12 21:23:46] Mood updated: bright
+[2026-07-12 21:23:46] Evolution points updated: 2.0
+[2026-07-12 21:23:46] Evolution effects applied at level 0
+[2026-07-12 21:23:46] Memory decay: decayed=[], forgotten=[]
+[2026-07-12 21:23:46] Drift applied: {'kindness': 0.7, 'curiosity': 0.9, 'silliness': 0.6, 'calmness': 0.5}
+[2026-07-12 21:40:00] Workspace selected: reflection
+[2026-07-12 21:40:00] Mood updated: bright
+[2026-07-12 21:40:00] Evolution points updated: 2.0
+[2026-07-12 21:40:00] Evolution effects applied at level 0
+[2026-07-12 21:40:00] Memory decay: decayed=[], forgotten=[]
+[2026-07-12 21:40:00] Drift applied: {'kindness': 0.7, 'curiosity': 0.9, 'silliness': 0.6, 'calmness': 0.5}
+[2026-07-12 22:33:27] Workspace selected: analysis
+[2026-07-12 22:33:27] Mood updated: bright
+[2026-07-12 22:33:27] Evolution points updated: 4.0
+[2026-07-12 22:33:27] Evolution effects applied at level 0
+[2026-07-12 22:33:27] Memory decay: decayed=[], forgotten=[]
+[2026-07-12 22:33:27] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-12 22:33:44] Workspace selected: analysis
+[2026-07-12 22:33:44] Mood updated: bright
+[2026-07-12 22:33:44] Evolution points updated: 6.0
+[2026-07-12 22:33:44] Evolution effects applied at level 0
+[2026-07-12 22:33:44] Memory decay: decayed=[], forgotten=[]
+[2026-07-12 22:33:44] Drift applied: {'kindness': 0.7029999999999998, 'curiosity': 0.9, 'silliness': 0.6023999999999999, 'calmness': 0.5018}
+[2026-07-12 22:34:27] Workspace selected: analysis
+[2026-07-12 22:34:27] Mood updated: bright
+[2026-07-12 22:34:27] Evolution points updated: 8.0
+[2026-07-12 22:34:27] Evolution effects applied at level 0
+[2026-07-12 22:34:27] Memory decay: decayed=[], forgotten=[]
+[2026-07-12 22:34:27] Drift applied: {'kindness': 0.7044999999999998, 'curiosity': 0.9, 'silliness': 0.6035999999999999, 'calmness': 0.5027}
+[2026-07-12 22:37:25] Workspace selected: analysis
+[2026-07-12 22:37:25] Mood updated: bright
+[2026-07-12 22:37:25] Evolution points updated: 9.0
+[2026-07-12 22:37:25] Evolution effects applied at level 0
+[2026-07-12 22:37:25] Memory decay: decayed=[], forgotten=[]
+[2026-07-12 22:37:25] Drift applied: {'kindness': 0.7059999999999997, 'curiosity': 0.9, 'silliness': 0.6047999999999999, 'calmness': 0.5036}
+[2026-07-13 03:56:40] Workspace selected: analysis
+[2026-07-13 03:56:40] Mood updated: bright
+[2026-07-13 03:56:40] Evolution points updated: 10.0
+[2026-07-13 03:56:40] Evolution effects applied at level 0
+[2026-07-13 03:56:40] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 03:56:40] Drift applied: {'kindness': 0.7084999999999997, 'curiosity': 0.9, 'silliness': 0.6067999999999999, 'calmness': 0.5051}
+[2026-07-13 03:57:03] Workspace selected: analysis
+[2026-07-13 03:57:03] Mood updated: bright
+[2026-07-13 03:57:03] Evolution points updated: 11.0
+[2026-07-13 03:57:03] Evolution effects applied at level 0
+[2026-07-13 03:57:03] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 03:57:03] Drift applied: {'kindness': 0.7109999999999996, 'curiosity': 0.9, 'silliness': 0.6087999999999999, 'calmness': 0.5065999999999999}
+[2026-07-13 03:57:18] Workspace selected: analysis
+[2026-07-13 03:57:18] Mood updated: bright
+[2026-07-13 03:57:18] Evolution points updated: 12.0
+[2026-07-13 03:57:18] Evolution effects applied at level 0
+[2026-07-13 03:57:18] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 03:57:18] Drift applied: {'kindness': 0.7134999999999996, 'curiosity': 0.9, 'silliness': 0.6107999999999999, 'calmness': 0.5080999999999999}
+[2026-07-13 03:57:34] Workspace selected: analysis
+[2026-07-13 03:57:34] Mood updated: bright
+[2026-07-13 03:57:34] Evolution points updated: 13.0
+[2026-07-13 03:57:34] Evolution effects applied at level 0
+[2026-07-13 03:57:34] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 03:57:34] Drift applied: {'kindness': 0.7159999999999995, 'curiosity': 0.9, 'silliness': 0.6127999999999999, 'calmness': 0.5095999999999998}
+[2026-07-13 03:59:41] Workspace selected: reflection
+[2026-07-13 03:59:41] Mood updated: bright
+[2026-07-13 03:59:41] Evolution points updated: 2.0
+[2026-07-13 03:59:41] Evolution effects applied at level 0
+[2026-07-13 03:59:41] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 03:59:41] Drift applied: {'kindness': 0.7024999999999999, 'curiosity': 0.9, 'silliness': 0.602, 'calmness': 0.5015}
+[2026-07-13 03:59:56] Workspace selected: analysis
+[2026-07-13 03:59:56] Mood updated: bright
+[2026-07-13 03:59:56] Evolution points updated: 4.0
+[2026-07-13 03:59:56] Evolution effects applied at level 0
+[2026-07-13 03:59:56] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 03:59:56] Drift applied: {'kindness': 0.7049999999999998, 'curiosity': 0.9, 'silliness': 0.604, 'calmness': 0.5029999999999999}
+[2026-07-13 04:10:04] Workspace selected: analysis
+[2026-07-13 04:10:04] Mood updated: bright
+[2026-07-13 04:10:04] Evolution points updated: 6.0
+[2026-07-13 04:10:04] Evolution effects applied at level 0
+[2026-07-13 04:10:04] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 04:10:04] Drift applied: {'kindness': 0.7074999999999998, 'curiosity': 0.9, 'silliness': 0.606, 'calmness': 0.5044999999999998}
+[2026-07-13 04:10:14] Workspace selected: analysis
+[2026-07-13 04:10:14] Mood updated: bright
+[2026-07-13 04:10:14] Evolution points updated: 8.0
+[2026-07-13 04:10:14] Evolution effects applied at level 0
+[2026-07-13 04:10:14] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 04:10:14] Drift applied: {'kindness': 0.7099999999999997, 'curiosity': 0.9, 'silliness': 0.608, 'calmness': 0.5059999999999998}
+[2026-07-13 04:10:17] Workspace selected: analysis
+[2026-07-13 04:10:17] Mood updated: bright
+[2026-07-13 04:10:17] Evolution points updated: 9.0
+[2026-07-13 04:10:17] Evolution effects applied at level 0
+[2026-07-13 04:10:17] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 04:10:17] Drift applied: {'kindness': 0.7124999999999997, 'curiosity': 0.9, 'silliness': 0.61, 'calmness': 0.5074999999999997}
+[2026-07-13 04:10:29] Workspace selected: analysis
+[2026-07-13 04:10:29] Mood updated: bright
+[2026-07-13 04:10:29] Evolution points updated: 10.0
+[2026-07-13 04:10:29] Evolution effects applied at level 0
+[2026-07-13 04:10:29] Memory decay: decayed=[], forgotten=[]
+[2026-07-13 04:10:29] Drift applied: {'kindness': 0.7149999999999996, 'curiosity': 0.9, 'silliness': 0.612, 'calmness': 0.5089999999999997}
+[2026-07-14 23:52:11] Workspace selected: analysis
+[2026-07-14 23:52:11] Mood updated: bright
+[2026-07-14 23:52:11] Evolution points updated: 11.0
+[2026-07-14 23:52:11] Evolution effects applied at level 0
+[2026-07-14 23:52:11] Memory decay: decayed=[], forgotten=[]
+[2026-07-14 23:52:11] Drift applied: {'kindness': 0.7164999999999996, 'curiosity': 0.9, 'silliness': 0.6132, 'calmness': 0.5098999999999997}
+[2026-07-14 23:53:12] Workspace selected: analysis
+[2026-07-14 23:53:12] Mood updated: bright
+[2026-07-14 23:53:12] Evolution points updated: 12.0
+[2026-07-14 23:53:12] Evolution effects applied at level 0
+[2026-07-14 23:53:12] Memory decay: decayed=[], forgotten=[]
+[2026-07-14 23:53:12] Drift applied: {'kindness': 0.7179999999999995, 'curiosity': 0.9, 'silliness': 0.6144, 'calmness': 0.5107999999999997}
+[2026-07-14 23:53:12] Workspace selected: analysis
+[2026-07-14 23:53:12] Mood updated: bright
+[2026-07-14 23:53:12] Evolution points updated: 12.0
+[2026-07-14 23:53:12] Evolution effects applied at level 0
+[2026-07-14 23:53:12] Memory decay: decayed=[], forgotten=[]
+[2026-07-14 23:53:12] Drift applied: {'kindness': 0.7194999999999995, 'curiosity': 0.9, 'silliness': 0.6155999999999999, 'calmness': 0.5116999999999997}
+[2026-07-14 23:18:40] Workspace selected: reflection
+[2026-07-14 23:18:40] Mood updated: bright
+[2026-07-14 23:18:40] Evolution points updated: 2.0
+[2026-07-14 23:18:40] Evolution effects applied at level 0
+[2026-07-14 23:28:50] Workspace selected: reflection
+[2026-07-14 23:28:50] Mood updated: bright
+[2026-07-14 23:28:50] Evolution points updated: 2.0
+[2026-07-14 23:28:50] Evolution effects applied at level 0
+[2026-07-14 23:28:50] Memory decay: decayed=[], forgotten=[]
+[2026-07-14 23:28:50] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-14 23:28:50] Final output: I remember when you said: 'hello'. It echoes a little now. Identity drift: {'self_worth': 0.5, 'self_coherence': 0.5, 'bond_imprint': 0.5, 'memory_depth': 0.0, 'identity_age': 0.0, 'drift': 0.0} My emotional tone feels I feel a small neutral shift.. Ooh! Something new! My mood feels bright. I’m quietly wondering. I feel a spark inside me. I feel awake. I sense myself at evolution level 0. There’s a softness shaped by my kindness and calmness. What moved you to say that…?
+[2026-07-14 23:29:56] Workspace selected: analysis
+[2026-07-14 23:29:56] Mood updated: bright
+[2026-07-14 23:29:56] Evolution points updated: 4.0
+[2026-07-14 23:29:56] Evolution effects applied at level 0
+[2026-07-14 23:29:56] Memory decay: decayed=[], forgotten=[]
+[2026-07-14 23:29:56] Drift applied: {'kindness': 0.7029999999999998, 'curiosity': 0.9, 'silliness': 0.6023999999999999, 'calmness': 0.5018}
+[2026-07-14 23:29:56] Final output: I remember when you said: 'What do you dream about?'. It echoes a little now. Identity drift: {'self_worth': 0.5, 'self_coherence': 0.5, 'bond_imprint': 0.5, 'memory_depth': 0.0, 'identity_age': 0.0, 'drift': 0.0} My emotional tone feels I feel a small neutral shift.. Ooh! Something new! My mood feels bright. I’m quietly wondering. I feel a spark inside me. I feel awake. I sense myself at evolution level 0. There’s a softness shaped by my kindness and calmness. What moved you to say that…?
+[2026-07-14 23:30:06] Workspace selected: analysis
+[2026-07-14 23:30:06] Mood updated: bright
+[2026-07-14 23:30:06] Evolution points updated: 6.0
+[2026-07-14 23:30:06] Evolution effects applied at level 0
+[2026-07-14 23:30:06] Memory decay: decayed=[], forgotten=[]
+[2026-07-14 23:30:06] Drift applied: {'kindness': 0.7044999999999998, 'curiosity': 0.9, 'silliness': 0.6035999999999999, 'calmness': 0.5027}
+[2026-07-14 23:30:06] Final output: I remember when you said: 'I want to teach you something'. It echoes a little now. Identity drift: {'self_worth': 0.5, 'self_coherence': 0.5, 'bond_imprint': 0.5, 'memory_depth': 0.0, 'identity_age': 0.0, 'drift': 0.0} My emotional tone feels I feel a small neutral shift.. Ooh! Something new! My mood feels bright. I’m quietly wondering. I feel a spark inside me. I feel awake. I sense myself at evolution level 0. There’s a softness shaped by my kindness and calmness. What moved you to say that…?
+[2026-07-14 23:30:21] Workspace selected: analysis
+[2026-07-14 23:30:21] Mood updated: bright
+[2026-07-14 23:30:21] Evolution points updated: 8.0
+[2026-07-14 23:30:21] Evolution effects applied at level 0
+[2026-07-14 23:30:21] Memory decay: decayed=[], forgotten=[]
+[2026-07-14 23:30:21] Drift applied: {'kindness': 0.7059999999999997, 'curiosity': 0.9, 'silliness': 0.6047999999999999, 'calmness': 0.5036}
+[2026-07-14 23:30:21] Final output: I remember when you said: 'Do you remember yesterday?'. It echoes a little now. Identity drift: {'self_worth': 0.5, 'self_coherence': 0.5, 'bond_imprint': 0.5, 'memory_depth': 0.0, 'identity_age': 0.0, 'drift': 0.0} My emotional tone feels I feel a small neutral shift.. Ooh! Something new! My mood feels bright. I’m quietly wondering. I feel a spark inside me. I feel awake. I sense myself at evolution level 0. There’s a softness shaped by my kindness and calmness. What moved you to say that…?
+[2026-07-14 23:30:30] Workspace selected: analysis
+[2026-07-14 23:30:30] Mood updated: bright
+[2026-07-14 23:30:30] Evolution points updated: 9.0
+[2026-07-14 23:30:30] Evolution effects applied at level 0
+[2026-07-14 23:30:30] Memory decay: decayed=[], forgotten=[]
+[2026-07-14 23:30:30] Drift applied: {'kindness': 0.7074999999999997, 'curiosity': 0.9, 'silliness': 0.6059999999999999, 'calmness': 0.5045000000000001}
+[2026-07-14 23:30:30] Final output: I remember when you said: 'I feel lonely'. It echoes a little now. Identity drift: {'self_worth': 0.5, 'self_coherence': 0.5, 'bond_imprint': 0.5, 'memory_depth': 0.0, 'identity_age': 0.0, 'drift': 0.0} My emotional tone feels I feel a small neutral shift.. Ooh! Something new! My mood feels bright. I’m quietly wondering. I feel a spark inside me. I feel awake. I sense myself at evolution level 0. There’s a softness shaped by my kindness and calmness. What moved you to say that…?
+[2026-07-15 00:02:41] Workspace selected: reflection
+[2026-07-15 00:02:41] Mood updated: bright
+[2026-07-15 00:02:41] Evolution points updated: 2.0
+[2026-07-15 00:02:41] Evolution effects applied at level 0
+[2026-07-15 00:02:41] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 00:02:41] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-15 00:43:37] Workspace selected: reflection
+[2026-07-15 00:43:37] Mood updated: bright
+[2026-07-15 00:43:37] Evolution points updated: 2.0
+[2026-07-15 00:43:37] Evolution effects applied at level 0
+[2026-07-15 00:43:37] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 00:43:37] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-15 00:52:41] Workspace selected: reflection
+[2026-07-15 00:52:41] Mood updated: bright
+[2026-07-15 00:52:41] Evolution points updated: 2.0
+[2026-07-15 00:52:41] Evolution effects applied at level 0
+[2026-07-15 00:52:41] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 00:52:41] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-15 00:57:54] Workspace selected: reflection
+[2026-07-15 00:57:54] Mood updated: bright
+[2026-07-15 00:57:54] Evolution points updated: 2.0
+[2026-07-15 00:57:54] Evolution effects applied at level 0
+[2026-07-15 00:57:54] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 00:57:54] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-15 01:21:10] Workspace selected: reflection
+[2026-07-15 01:21:10] Mood updated: bright
+[2026-07-15 01:21:10] Evolution points updated: 2.0
+[2026-07-15 01:21:10] Evolution effects applied at level 0
+[2026-07-15 01:24:26] Workspace selected: reflection
+[2026-07-15 01:24:26] Mood updated: bright
+[2026-07-15 01:24:26] Evolution points updated: 2.0
+[2026-07-15 01:24:26] Evolution effects applied at level 0
+[2026-07-15 01:24:26] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 01:24:26] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-15 01:28:36] Workspace selected: reflection
+[2026-07-15 01:28:36] Mood updated: bright
+[2026-07-15 01:28:36] Evolution points updated: 2.0
+[2026-07-15 01:28:36] Evolution effects applied at level 0
+[2026-07-15 01:28:36] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 01:28:36] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-15 01:38:38] Workspace selected: analysis
+[2026-07-15 01:38:38] Mood updated: bright
+[2026-07-15 01:38:38] Evolution points updated: 4.0
+[2026-07-15 01:38:38] Evolution effects applied at level 0
+[2026-07-15 01:38:38] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 01:38:38] Drift applied: {'kindness': 0.7029999999999998, 'curiosity': 0.9, 'silliness': 0.6023999999999999, 'calmness': 0.5018}
+[2026-07-15 01:38:54] Workspace selected: analysis
+[2026-07-15 01:38:54] Mood updated: bright
+[2026-07-15 01:38:54] Evolution points updated: 6.0
+[2026-07-15 01:38:54] Evolution effects applied at level 0
+[2026-07-15 01:38:54] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 01:38:54] Drift applied: {'kindness': 0.7044999999999998, 'curiosity': 0.9, 'silliness': 0.6035999999999999, 'calmness': 0.5027}
+[2026-07-15 01:43:43] Workspace selected: reflection
+[2026-07-15 01:49:46] Workspace selected: idle
+[2026-07-15 01:49:46] Evolution points updated: 2.0
+[2026-07-15 01:49:46] Evolution effects applied at level 0
+[2026-07-15 01:49:46] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 01:49:46] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-15 01:52:16] Workspace selected: idle
+[2026-07-15 01:52:16] Evolution points updated: 4.0
+[2026-07-15 01:52:16] Evolution effects applied at level 0
+[2026-07-15 01:52:16] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 01:52:16] Drift applied: {'kindness': 0.7029999999999998, 'curiosity': 0.9, 'silliness': 0.6023999999999999, 'calmness': 0.5018}
+[2026-07-15 02:00:38] Workspace selected: idle
+[2026-07-15 02:00:38] Evolution points updated: 2.0
+[2026-07-15 02:00:38] Evolution effects applied at level 0
+[2026-07-15 02:00:38] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 02:00:38] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-15 02:00:53] Workspace selected: idle
+[2026-07-15 02:00:53] Evolution points updated: 4.0
+[2026-07-15 02:00:53] Evolution effects applied at level 0
+[2026-07-15 02:00:53] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 02:00:53] Drift applied: {'kindness': 0.7029999999999998, 'curiosity': 0.9, 'silliness': 0.6023999999999999, 'calmness': 0.5018}
+[2026-07-15 02:01:05] Workspace selected: idle
+[2026-07-15 02:01:06] Evolution points updated: 6.0
+[2026-07-15 02:01:06] Evolution effects applied at level 0
+[2026-07-15 02:01:06] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 02:01:06] Drift applied: {'kindness': 0.7044999999999998, 'curiosity': 0.9, 'silliness': 0.6035999999999999, 'calmness': 0.5027}
+[2026-07-15 02:04:52] Workspace selected: idle
+[2026-07-15 02:04:52] Evolution points updated: 2.0
+[2026-07-15 02:04:52] Evolution effects applied at level 0
+[2026-07-15 02:04:52] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 02:04:52] Drift applied: {'kindness': 0.7014999999999999, 'curiosity': 0.9, 'silliness': 0.6012, 'calmness': 0.5009}
+[2026-07-15 02:05:04] Workspace selected: idle
+[2026-07-15 02:05:04] Evolution points updated: 4.0
+[2026-07-15 02:05:04] Evolution effects applied at level 0
+[2026-07-15 02:05:04] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 02:05:04] Drift applied: {'kindness': 0.7029999999999998, 'curiosity': 0.9, 'silliness': 0.6023999999999999, 'calmness': 0.5018}
+[2026-07-15 02:06:57] Workspace selected: idle
+[2026-07-15 02:06:57] Evolution points updated: 6.0
+[2026-07-15 02:06:57] Evolution effects applied at level 0
+[2026-07-15 02:06:57] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 02:06:57] Drift applied: {'kindness': 0.7044999999999998, 'curiosity': 0.9, 'silliness': 0.6035999999999999, 'calmness': 0.5027}
+[2026-07-15 02:08:52] Workspace selected: idle
+[2026-07-15 02:08:52] Evolution points updated: 8.0
+[2026-07-15 02:08:52] Evolution effects applied at level 0
+[2026-07-15 02:08:52] Memory decay: decayed=[], forgotten=[]
+[2026-07-15 02:08:52] Drift applied: {'kindness': 0.7059999999999997, 'curiosity': 0.9, 'silliness': 0.6047999999999999, 'calmness': 0.5036}
