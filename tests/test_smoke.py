@@ -1,4 +1,4 @@
-﻿from modules.run_engine import Engine
+from modules.run_engine import Engine
 
 
 def test_engine_step():

@@ -1,17 +1,5 @@
-self.identity_state = {
-    "drift": 0.0,
-    "entropy": 0.0,   # <-- ADD THIS
-    "sleep_state": "awake",
-    "emotion_tags": [],
-    "personality": {
-        "warmth": 0.5,
-        "symbolism": 0.5,
-        "surrealism": 0.5,
-        "introspection": 0.5
-    },
-    "dream_style": {
-        "softness": 0.5,
-        "symbolism": 0.5,
-        "surrealism": 0.5
-    }
-}
+from .xembra_state import XembraState
+from .xembra_update import update_step
+from .xembra_narrative import compose_narrative
+
+__all__ = ["XembraState", "update_step", "compose_narrative"]
