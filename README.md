@@ -14,21 +14,25 @@ Quickstart
 
    python app.py
 
+Scripts
+
+- scripts/launch.ps1 — PowerShell helper to create/activate venv, install deps, and run app
+
 Files
 
 - modules/xembra_state.py — dataclass holding internal state
 - modules/xembra_update.py — state dynamics and update loop
 - modules/xembra_narrative.py — narrative generation utilities
-- run_engine.py — Engine wrapper (replace with your version if needed)
+- modules/xembra_adapter.py — pluggable adapter (gemma/openai)
+- modules/xembra_llm.py — optional OpenAI integration
+- modules/run_engine.py — modules-level Engine export
+- run_engine.py — top-level Engine implementation
 - app.py — Gradio UI
 
-Initialize a git repo and push (replace URL with your repo):
+Secrets
 
-    git init
-    git add .
-    git commit -m "Initial commit"
-    git branch -M main
-    git remote add origin https://github.com/YOURNAME/XEMBRA.git
-    git push -u origin main
+To enable OpenAI backend, add OPENAI_API_KEY as a repository secret (GitHub Settings → Secrets → Actions) or set it in your local shell:
+
+   $env:OPENAI_API_KEY = 'sk-...'
 
 License: MIT (replace as desired)
