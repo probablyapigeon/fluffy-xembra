@@ -7,17 +7,17 @@ import torch
 
 class XembraLLMAdapter:
     def __init__(self):
-        # Use an open HuggingFace model (no auth required, works cross-platform)
+        # Mistral-7B with 8-bit quantization (faster loading, lower memory)
         model_path = "mistralai/Mistral-7B-Instruct-v0.3"
 
         print("Loading tokenizer from:", model_path)
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-        print("Loading model...")
+        print("Loading model (8-bit quantized)...")
         self.model = AutoModelForCausalLM.from_pretrained(
             model_path,
-            dtype=torch.float32,
-            device_map="cpu"
+            load_in_8bit=True,
+            device_map="auto"
         )
         print("Model loaded.")
 
