@@ -1,45 +1,41 @@
 # XEMBRA
 
-A small narrative state-machine engine that models drift, entropy, coherence, and dream residue and emits short narrative lines.
+XEMBRA is a small experimental narrative agent built around a drifting state machine.  
+It models internal variables such as **drift**, **entropy**, **coherence**, **traits**, and **dream residue**, then generates short narrative reflections based on its evolving state.
 
-Quickstart
+A Gradio interface provides a live, interactive view of XEMBRA’s internal world.
 
-1. Create a venv and install requirements:
+---
 
-   python -m venv .venv
-   .venv\\Scripts\\activate
-   pip install -r requirements.txt
+## ✨ Features
 
-2. Run the Gradio app:
+- **Dynamic state machine**  
+  Drift, entropy, coherence, memory kernel, and cognitive level update each step.
 
-   python app.py
+- **Narrative generation**  
+  XEMBRA emits short introspective narrative lines based on its current state.
 
-Scripts
+- **Identity traits**  
+  Warmth, symbolism, surrealism, introspection — all shift over time.
 
-- scripts/launch.ps1 — PowerShell helper to create/activate venv, install deps, and run app
-- scripts/launch.sh — POSIX (bash) helper to create/activate venv and run app
-- scripts/demo_openai.py — small demo that runs Engine with the OpenAI backend (requires OPENAI_API_KEY)
+- **Dream residue system**  
+  Optional surreal “dream fragments” that influence narrative tone.
 
-Files
+- **Gradio UI**  
+  A clean interface showing:
+  - conversation
+  - internal state
+  - identity drift
+  - world model
+  - learning level
+  - goals
 
-- modules/xembra_state.py — dataclass holding internal state
-- modules/xembra_update.py — state dynamics and update loop
-- modules/xembra_narrative.py — narrative generation utilities
-- modules/xembra_adapter.py — pluggable adapter (gemma/openai)
-- modules/xembra_llm.py — optional OpenAI integration
-- modules/run_engine.py — modules-level Engine export
-- run_engine.py — top-level Engine implementation
-- app.py — Gradio UI
+- **Pluggable LLM backend**  
+  Uses TinyLlama or a fallback adapter for narrative generation.
 
-Developer / CI
+---
 
-- requirements-dev.txt — developer tools (ruff, black)
-- .github/workflows/lint.yml — lint and formatting checks
+## 🚀 Quickstart
 
-Secrets
+### 1. Create a virtual environment and install dependencies
 
-To enable OpenAI backend, add OPENAI_API_KEY as a repository secret (GitHub Settings → Secrets → Actions) or set it in your local shell:
-
-   $env:OPENAI_API_KEY = 'sk-...'
-
-License: MIT (replace as desired)
