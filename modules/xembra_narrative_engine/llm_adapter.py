@@ -15,10 +15,11 @@ class XembraLLMAdapter:
 
         print("Loading model (8-bit quantized)...")
         
-        # Configure 8-bit quantization
+        # Configure 8-bit quantization with CPU offload for smaller GPUs
         quantization_config = BitsAndBytesConfig(
             load_in_8bit=True,
             llm_int8_threshold=6.0,
+            llm_int8_enable_fp32_cpu_offload=True,  # Offload to CPU when needed
         )
         
         self.model = AutoModelForCausalLM.from_pretrained(
