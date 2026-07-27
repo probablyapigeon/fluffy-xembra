@@ -7,25 +7,16 @@ import torch
 
 class XembraLLMAdapter:
     def __init__(self):
-        # Mistral-7B with 8-bit quantization (faster loading, lower memory)
-        model_path = "mistralai/Mistral-7B-Instruct-v0.3"
+        # TinyLlama-1.1B — fast inference on CPU (~10s responses)
+        model_path = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
         print("Loading tokenizer from:", model_path)
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-        print("Loading model (8-bit quantized)...")
-        
-        # Configure 8-bit quantization with CPU offload for smaller GPUs
-        quantization_config = BitsAndBytesConfig(
-            load_in_8bit=True,
-            llm_int8_threshold=6.0,
-            llm_int8_enable_fp32_cpu_offload=True,  # Offload to CPU when needed
-        )
-        
+        print("Loading model...")
         self.model = AutoModelForCausalLM.from_pretrained(
             model_path,
-            quantization_config=quantization_config,
-            device_map="cpu"  # Use CPU only (GPU is incompatible with this PyTorch build)
+            device_map="cpu"
         )
         print("Model loaded.")
 
