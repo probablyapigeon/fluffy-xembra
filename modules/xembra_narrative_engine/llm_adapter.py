@@ -7,8 +7,8 @@ import torch
 
 class XembraLLMAdapter:
     def __init__(self):
-        # Use a HuggingFace model ID that works cross-platform (Windows, WSL, Docker)
-        model_path = "google/gemma-2b-it"
+        # Use an open HuggingFace model (no auth required, works cross-platform)
+        model_path = "mistralai/Mistral-7B-Instruct-v0.3"
 
         print("Loading tokenizer from:", model_path)
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
