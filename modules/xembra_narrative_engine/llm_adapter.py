@@ -25,7 +25,7 @@ class XembraLLMAdapter:
         self.model = AutoModelForCausalLM.from_pretrained(
             model_path,
             quantization_config=quantization_config,
-            device_map="auto"
+            device_map="cpu"  # Use CPU only (GPU is incompatible with this PyTorch build)
         )
         print("Model loaded.")
 
