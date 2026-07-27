@@ -1,43 +1,51 @@
-"""Gradio interface for running XEMBRA's narrative loop.
+"""Gradio interface that uses the original XEMBRA agent (talk loop).
 Run: python app.py
 """
-from modules.run_engine import Engine
+from modules.xembra import XEMBRA
 import gradio as gr
+import os
+from fastapi import Request, HTTPException
 
-engine = Engine()
+# Create the XEMBRA agent instance
+agent = XEMBRA()
 
 with gr.Blocks(title="XEMBRA Narrative Loop") as demo:
-    gr.Markdown("# XEMBRA — narrative engine")
+    gr.Markdown("# XEMBRA — interactive agent")
 
-    log = gr.Textbox(label="Narrative log", value="", lines=12)
-    steps_in = gr.Number(value=1, label="Steps to run", precision=0)
-    seed_in = gr.Number(value=0, label="Seed (0 = random)", precision=0)
+    user_in = gr.Textbox(label="You", placeholder="Say something to XEMBRA...", lines=2)
+    send_btn = gr.Button("Send")
 
-    run_btn = gr.Button("Step")
-    run_n_btn = gr.Button("Run N Steps")
-    reset_btn = gr.Button("Reset")
+    convo = gr.Textbox(label="Conversation", value="", lines=18)
+    identity = gr.Textbox(label="Identity / State", value="", lines=8)
 
-    def step_once(current_log: str) -> str:
-        line = engine.step()
-        new_log = (current_log + "\n" + line).strip()
-        return new_log
+    def send_message(user_text: str, current_convo: str):
+        if not user_text:
+            return current_convo, identity.value if hasattr(identity, 'value') else ""
+        # Get agent response using its talk() method
+        resp = agent.talk(user_text)
+        new_convo = (current_convo + "\n[YOU] " + user_text + "\n[XEMBRA] " + resp).strip()
+        # Try to show some internal state if available
+        try:
+            state_view = agent.show_identity() + "\n\n" + agent.show_memory()
+        except Exception:
+            state_view = "(no state available)"
+        return new_convo, state_view
 
-    def run_n(n: int, current_log: str, seed_val: int) -> str:
-        if seed_val and seed_val != 0:
-            engine.reset(int(seed_val))
-        if n is None or n <= 0:
-            return current_log
-        lines = engine.run_n(int(n))
-        new_log = (current_log + "\n" + "\n".join(lines)).strip()
-        return new_log
+    send_btn.click(send_message, inputs=[user_in, convo], outputs=[convo, identity])
 
-    def reset_all(_) -> str:
-        engine.reset(None)
-        return ""
+# Optional token-based access control. Set XEMBRA_TOKEN in the environment
+# to require requests to provide the token via the `token` query param or
+# the `x-xembra-token` HTTP header.
+XEMBRA_TOKEN = os.getenv("XEMBRA_TOKEN")
+app = demo.server_app
 
-    run_btn.click(step_once, inputs=[log], outputs=[log])
-    run_n_btn.click(run_n, inputs=[steps_in, log, seed_in], outputs=[log])
-    reset_btn.click(reset_all, inputs=[log], outputs=[log])
+if XEMBRA_TOKEN:
+    @app.middleware("http")
+    async def require_token(request: Request, call_next):
+        provided = request.headers.get("x-xembra-token") or request.query_params.get("token")
+        if not provided or provided != XEMBRA_TOKEN:
+            raise HTTPException(status_code=401, detail="Unauthorized: missing or invalid token")
+        return await call_next(request)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860, share=False)
