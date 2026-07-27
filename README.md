@@ -17,6 +17,8 @@ Quickstart
 Scripts
 
 - scripts/launch.ps1 — PowerShell helper to create/activate venv, install deps, and run app
+- scripts/launch.sh — POSIX (bash) helper to create/activate venv and run app
+- scripts/demo_openai.py — small demo that runs Engine with the OpenAI backend (requires OPENAI_API_KEY)
 
 Files
 
@@ -28,6 +30,11 @@ Files
 - modules/run_engine.py — modules-level Engine export
 - run_engine.py — top-level Engine implementation
 - app.py — Gradio UI
+
+Developer / CI
+
+- requirements-dev.txt — developer tools (ruff, black)
+- .github/workflows/lint.yml — lint and formatting checks
 
 Secrets
 
