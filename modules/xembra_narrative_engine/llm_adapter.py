@@ -2,7 +2,7 @@
 # XEMBRA NARRATIVE ENGINE — LLM Adapter (Balanced Mode)
 # ============================================================
 
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 
 class XembraLLMAdapter:
@@ -14,9 +14,16 @@ class XembraLLMAdapter:
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
 
         print("Loading model (8-bit quantized)...")
+        
+        # Configure 8-bit quantization
+        quantization_config = BitsAndBytesConfig(
+            load_in_8bit=True,
+            llm_int8_threshold=6.0,
+        )
+        
         self.model = AutoModelForCausalLM.from_pretrained(
             model_path,
-            load_in_8bit=True,
+            quantization_config=quantization_config,
             device_map="auto"
         )
         print("Model loaded.")
